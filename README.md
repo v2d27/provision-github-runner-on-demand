@@ -1,4 +1,4 @@
-# Provision self-hosted GitHub runners based on demand in AWS
+# Provision self-hosted GitHub runners on-demand in AWS
 ![shield](https://img.shields.io/badge/Scope-github_runners-blue)
 ![shield](https://img.shields.io/badge/Cloud_provider-AWS-orange)
 ![shield](https://img.shields.io/badge/Terrafrom->=v1.0-orange)
