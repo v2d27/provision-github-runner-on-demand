@@ -35,7 +35,10 @@ The scope of this project includes:
 - Docker installed on the local machine.
 
 ## Usage
-Once the setup is complete, the GitHub runners will automatically scale based on the CI/CD workload. You can monitor and manage the runners through the AWS Management Console and GitHub repository settings.
+Once the setup is complete, the GitHub runners will automatically scale based on the CI/CD workload. You can monitor and manage the runners through the AWS Management Console and GitHub repository settings. Follow these documents to install:
+
+1. [Install AutoRunner - Worker](./project/lambda-runner-worker/README.md)
+2. [Install AutoRunner - API](./project/lambda-runner-api/README.md)
 
 ## Log
 You can view logs through AWS CloudWatch - Log Groups:

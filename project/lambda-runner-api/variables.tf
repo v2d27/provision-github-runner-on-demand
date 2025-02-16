@@ -5,6 +5,7 @@ variable "region" {
 
 variable "github-token" {
     type = string
+    default = "your-github-access-token"
     description = "Your PAT with runner access permissions"
 }
 
@@ -13,5 +14,6 @@ variable "github-token" {
 # => value must be: my-org-name
 variable "github-org" {
     type = string
+    default = "your-github-org"
     description = "Your GitHub organization"
 }
