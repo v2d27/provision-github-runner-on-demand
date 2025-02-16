@@ -1,4 +1,9 @@
-# Provision Self-Hosted GitHub Runners Based on Demand in AWS
+# Provision self-hosted GitHub runners based on demand in AWS
+![shield](https://img.shields.io/badge/Scope-github_runners-blue)
+![shield](https://img.shields.io/badge/Cloud_provider-AWS-orange)
+![shield](https://img.shields.io/badge/Terrafrom->=v1.0-orange)
+![shield](https://img.shields.io/badge/Type-spot_instance-purple)
+![shield](https://img.shields.io/badge/Permission-full_control-purple)
 
 ## Purpose
 This project aims to provision self-hosted GitHub runners on-demand in AWS. It automates the setup and scaling of GitHub runners to handle CI/CD workloads efficiently.
