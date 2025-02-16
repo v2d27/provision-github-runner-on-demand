@@ -41,12 +41,11 @@ Once the setup is complete, the GitHub runners will automatically scale based on
 You can view logs through AWS CloudWatch - Log Groups:
 ```
 /aws/lambda/autorunner
-/aws/lambda/autorunnerworker
+/aws/lambda/autorunner-worker
 ```
 
 ## Contributing
-Contributions are welcome! Please see the `CONTRIBUTING.md` file for guidelines on how to contribute to this project.
+Contributions are welcome! Please create pull request to this repository.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
-```
